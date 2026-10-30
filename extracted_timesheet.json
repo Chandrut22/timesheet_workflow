@@ -1,0 +1,156 @@
+{
+  "timesheet": {
+    "employee_name": null,
+    "employee_id": null,
+    "company_name": "Northwind Workforce Partners",
+    "client_name": "Cobalt Retail Group",
+    "project_name": null,
+    "assignment_id": null,
+    "week_ending": "2026-10-04",
+    "daily_entries": [
+      {
+        "day_label": "Mon",
+        "date": "2026-09-28",
+        "start_time": "09:00",
+        "end_time": "17:30",
+        "break_minutes": 30,
+        "hours_worked": 8.0,
+        "regular_hours_reported": 8.0,
+        "overtime_hours_reported": 0.0,
+        "double_time_hours_reported": 0.0,
+        "is_public_holiday_reported": "N",
+        "pay_code": "REG.",
+        "notes": null,
+        "source_excerpt": "| 2026-09-28 | Mon | 09:00 | 17:30 |            30 |     8.0 |    8.0 |  0.0 |  0.0 | N      | REG.       |"
+      },
+      {
+        "day_label": "Tue",
+        "date": "2026-09-29",
+        "start_time": "00:60",
+        "end_time": "17:30",
+        "break_minutes": 30,
+        "hours_worked": 8.0,
+        "regular_hours_reported": 8.0,
+        "overtime_hours_reported": 0.0,
+        "double_time_hours_reported": 0.0,
+        "is_public_holiday_reported": "N",
+        "pay_code": "REG",
+        "notes": null,
+        "source_excerpt": "| 2026-09-29 | Tue | 00:60 | 17:30 |            30 |     8.0 |    8.0 |  0.0 |  0.0 | N      | REG        |"
+      },
+      {
+        "day_label": "Wed",
+        "date": "2026-09-30",
+        "start_time": "09:00",
+        "end_time": "17:30",
+        "break_minutes": 30,
+        "hours_worked": 8.0,
+        "regular_hours_reported": 8.0,
+        "overtime_hours_reported": 0.0,
+        "double_time_hours_reported": 0.0,
+        "is_public_holiday_reported": "N",
+        "pay_code": "REG",
+        "notes": null,
+        "source_excerpt": "| 2026-09-30 | Wed | 09:00 | 17:30 |            30 |     8.0 |    8.0 |  0.0 |  0.0 | N      | REG        |"
+      },
+      {
+        "day_label": "Thu",
+        "date": "2026-10-01",
+        "start_time": "09:00",
+        "end_time": "17:30",
+        "break_minutes": 30,
+        "hours_worked": 8.0,
+        "regular_hours_reported": 8.0,
+        "overtime_hours_reported": 0.0,
+        "double_time_hours_reported": 0.0,
+        "is_public_holiday_reported": "N",
+        "pay_code": "REG",
+        "notes": null,
+        "source_excerpt": "| 2026-10-01 | Thu | 09:00 | 17:30 |            30 |     8.0 |    8.0 |  0.0 |  0.0 | N      | REG        |"
+      },
+      {
+        "day_label": "Fri",
+        "date": "2026-10-02",
+        "start_time": "09:00",
+        "end_time": "17:30",
+        "break_minutes": 30,
+        "hours_worked": 8.0,
+        "regular_hours_reported": 8.0,
+        "overtime_hours_reported": 0.0,
+        "double_time_hours_reported": 0.0,
+        "is_public_holiday_reported": "N",
+        "pay_code": "REG",
+        "notes": null,
+        "source_excerpt": "| 2026-10-02 | Fri | 09:00 | 17:30 |            30 |     8.0 |    8.0 |  0.0 |  0.0 | N      | REG        |"
+      },
+      {
+        "day_label": "Sat",
+        "date": "2026-10-03",
+        "start_time": null,
+        "end_time": null,
+        "break_minutes": null,
+        "hours_worked": 0.0,
+        "regular_hours_reported": 0.0,
+        "overtime_hours_reported": 0.0,
+        "double_time_hours_reported": 0.0,
+        "is_public_holiday_reported": "N",
+        "pay_code": null,
+        "notes": null,
+        "source_excerpt": "| 2026-10-03 | Sat |       |       |               |     0.0 |    0.0 |  0.0 |  0.0 | N      |            |"
+      },
+      {
+        "day_label": "Sun",
+        "date": "2026-10-04",
+        "start_time": null,
+        "end_time": null,
+        "break_minutes": null,
+        "hours_worked": 0.0,
+        "regular_hours_reported": 0.0,
+        "overtime_hours_reported": 0.0,
+        "double_time_hours_reported": 0.0,
+        "is_public_holiday_reported": "N",
+        "pay_code": null,
+        "notes": null,
+        "source_excerpt": "| 2026-10-04 | Sun |       |       |               |     0.0 |    0.0 |  0.0 |  0.0 | N      |            |"
+      }
+    ],
+    "reported_regular_hours": 40.0,
+    "reported_overtime_hours": 0.0,
+    "reported_double_time_hours": 0.0,
+    "reported_total_hours": 40.0,
+    "approvals": [
+      "Approved"
+    ],
+    "missing_fields": [
+      "employee_name",
+      "employee_id",
+      "project_name",
+      "assignment_id"
+    ],
+    "extraction_notes": [
+      "Employee name, employee ID, project name, and assignment ID are missing from the source.",
+      "The week ending date was inferred from the pay period end date (2026-10-04).",
+      "Start time on 2026-09-29 is listed as 00:60, which is an invalid time format.",
+      "Pay code for 2026-09-28 includes a period (REG.) while others use REG; recorded as provided."
+    ]
+  },
+  "validation": {
+    "employee_name": null,
+    "employee_id": null,
+    "week_ending": "2026-10-04",
+    "status": "human_review_required",
+    "violations": [
+      {
+        "severity": "medium",
+        "message": "Employee name is missing.",
+        "field": "employee_name"
+      },
+      {
+        "severity": "medium",
+        "message": "Employee ID is missing.",
+        "field": "employee_id"
+      }
+    ]
+  },
+  "source_text": "ATTACHMENT: Scan_20261005_131502.jpg\n## Weekly Timesheet\n\n## Northwind Workforce Partners\n\nEmployee Name:\n\nStaffing Agency:\n\nProject:\n\nWeek Ending:\n\nNorthwind Workforce Partners Client:\n\nOmnichannel Inventory Sync Assignment ID:\n\n2026-10-04\n\nPay Period:\n\nCobalt Retail Group\n\n2026-09-28 to 2026-10-04\n\nEmployee ID:\n\n| Date       | Day Start   |       | End   |   Break (min) |   Hours |   Reg. |   OT |   DT | Hol.   | Code Pay   |\n|------------|-------------|-------|-------|---------------|---------|--------|------|------|--------|------------|\n| 2026-09-28 | Mon         | 09:00 | 17:30 |            30 |     8.0 |    8.0 |  0.0 |  0.0 | N      | REG.       |\n| 2026-09-29 | Tue         | 00:60 | 17:30 |            30 |     8.0 |    8.0 |  0.0 |  0.0 | N      | REG        |\n| 2026-09-30 | Wed         | 09:00 | 17:30 |            30 |     8.0 |    8.0 |  0.0 |  0.0 | N      | REG        |\n| 2026-10-01 | Thu         | 09:00 | 17:30 |            30 |     8.0 |    8.0 |  0.0 |  0.0 | N      | REG        |\n| 2026-10-02 | Fri         | 09:00 | 17:30 |            30 |     8.0 |    8.0 |  0.0 |  0.0 | N      | REG        |\n| 2026-10-03 | Sat         |       |       |               |     0.0 |    0.0 |  0.0 |  0.0 | N      |            |\n| 2026-10-04 | Sun         |       |       |               |     0.0 |    0.0 |  0.0 |  0.0 | N      |            |\n| TOTAL      |             |       |       |               |    40.0 |        |      |      |        |            |\n\n## Weekly Summary\n\n| Regular Hours        |   40.0 |\n|----------------------|--------|\n| Overtime Hours       |    0.0 |\n| Double-Time Hours    |    0.0 |\n| Public Holiday Hours |    0.0 |\n| Total Weekly Hours   |   40.0 |\n\nEmployee Signature:\n\nSupervisor Approval:\n\n<!-- image -->\n\n<!-- image -->\n\nDate:\n\n2026-10-04\n\n[X] Approved\n\nClient: Cobalt Retail Group"
+}

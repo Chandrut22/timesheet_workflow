@@ -1,0 +1,3 @@
+name,aliases,hourly_rate,overtime_rate,double_time_rate,holiday_rate,currency,daily_ot_after,weekly_ot_after,double_time_after,week_start,is_active
+Knowledge Tech,Knowledge Tech.;KnowledgeTech;KT,350,525,,700,INR,8,40,,0,true
+CodingMart,Coding Mart;CodingMart Pvt Ltd,400,600,,800,INR,8,40,,0,true
