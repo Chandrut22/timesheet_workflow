@@ -1,0 +1,149 @@
+{
+  "timesheet": {
+    "employee_name": "Grace Okoye",
+    "employee_id": "SYN-EMP-017",
+    "company_name": "BrightPath Talent Services",
+    "client_name": "Helios Logistics Ltd",
+    "project_name": "Warehouse Automation Phase 2",
+    "assignment_id": "ASG-2026-1017",
+    "week_ending": "2026-10-04 00:00:00",
+    "daily_entries": [
+      {
+        "day_label": "Mon",
+        "date": "2026-09-28 00:00:00",
+        "start_time": "09:00:00",
+        "end_time": "17:30:00",
+        "break_minutes": 30,
+        "hours_worked": 8.0,
+        "regular_hours_reported": null,
+        "overtime_hours_reported": null,
+        "double_time_hours_reported": null,
+        "is_public_holiday_reported": null,
+        "pay_code": null,
+        "notes": null,
+        "source_excerpt": "| 2026-09-28 00:00:00 | Mon   | 09:00:00 | 17:30:00 |            30 |              8 |           |            |               |                  |            |                              |"
+      },
+      {
+        "day_label": "Tue",
+        "date": "2026-09-29 00:00:00",
+        "start_time": "09:00:00",
+        "end_time": "17:30:00",
+        "break_minutes": 30,
+        "hours_worked": 8.0,
+        "regular_hours_reported": null,
+        "overtime_hours_reported": null,
+        "double_time_hours_reported": null,
+        "is_public_holiday_reported": null,
+        "pay_code": null,
+        "notes": null,
+        "source_excerpt": "| 2026-09-29 00:00:00 | Tue   | 09:00:00 | 17:30:00 |            30 |              8 |           |            |               |                  |            |                              |"
+      },
+      {
+        "day_label": "Wed",
+        "date": "2026-09-30 00:00:00",
+        "start_time": null,
+        "end_time": null,
+        "break_minutes": null,
+        "hours_worked": null,
+        "regular_hours_reported": null,
+        "overtime_hours_reported": null,
+        "double_time_hours_reported": null,
+        "is_public_holiday_reported": null,
+        "pay_code": null,
+        "notes": null,
+        "source_excerpt": "| 2026-09-30 00:00:00 | Wed   |          |          |               |                |           |            |               |                  |            |                              |"
+      },
+      {
+        "day_label": "Thu",
+        "date": "2026-10-01 00:00:00",
+        "start_time": "09:00:00",
+        "end_time": "17:30:00",
+        "break_minutes": 30,
+        "hours_worked": 8.0,
+        "regular_hours_reported": null,
+        "overtime_hours_reported": null,
+        "double_time_hours_reported": null,
+        "is_public_holiday_reported": null,
+        "pay_code": null,
+        "notes": null,
+        "source_excerpt": "| 2026-10-01 00:00:00 | Thu   | 09:00:00 | 17:30:00 |            30 |              8 |           |            |               |                  |            |                              |"
+      },
+      {
+        "day_label": "Fri",
+        "date": "2026-10-02 00:00:00",
+        "start_time": "09:00:00",
+        "end_time": "17:30:00",
+        "break_minutes": 30,
+        "hours_worked": 8.0,
+        "regular_hours_reported": null,
+        "overtime_hours_reported": null,
+        "double_time_hours_reported": null,
+        "is_public_holiday_reported": null,
+        "pay_code": null,
+        "notes": null,
+        "source_excerpt": "| 2026-10-02 00:00:00 | Fri   | 09:00:00 | 17:30:00 |            30 |              8 |           |            |               |                  |            |                              |"
+      },
+      {
+        "day_label": "Sat",
+        "date": "2026-10-03 00:00:00",
+        "start_time": null,
+        "end_time": null,
+        "break_minutes": null,
+        "hours_worked": 0.0,
+        "regular_hours_reported": null,
+        "overtime_hours_reported": null,
+        "double_time_hours_reported": null,
+        "is_public_holiday_reported": null,
+        "pay_code": null,
+        "notes": "Off",
+        "source_excerpt": "| 2026-10-03 00:00:00 | Sat   |          |          |               |              0 |           |            |               |                  |            | Off                          |"
+      },
+      {
+        "day_label": "Sun",
+        "date": "2026-10-04 00:00:00",
+        "start_time": null,
+        "end_time": null,
+        "break_minutes": null,
+        "hours_worked": 0.0,
+        "regular_hours_reported": null,
+        "overtime_hours_reported": null,
+        "double_time_hours_reported": null,
+        "is_public_holiday_reported": null,
+        "pay_code": null,
+        "notes": "Off",
+        "source_excerpt": "| 2026-10-04 00:00:00 | Sun   |          |          |               |              0 |           |            |               |                  |            | Off                          |"
+      }
+    ],
+    "reported_regular_hours": 40.0,
+    "reported_overtime_hours": null,
+    "reported_double_time_hours": null,
+    "reported_total_hours": 40.0,
+    "approvals": [
+      "Employee Signature: /s/ Grace Okoye",
+      "Supervisor Approval: /s/ Laura Bennett",
+      "Status: APPROVED"
+    ],
+    "missing_fields": [
+      "regular",
+      "overtime",
+      "double_time",
+      "public_holiday",
+      "pay_code"
+    ],
+    "extraction_notes": [
+      "The weekly summary table only lists a single number (40) which appears to represent total hours worked; regular, overtime, and double-time hours are not explicitly provided.",
+      "Break minutes are missing for 2026-09-30.",
+      "Start and end times are missing for 2026-09-30.",
+      "Public holiday status, pay code, and notes are not provided for most days.",
+      "Off days are indicated only by notes for 2026-10-03 and 2026-10-04."
+    ]
+  },
+  "validation": {
+    "employee_name": "Grace Okoye",
+    "employee_id": "SYN-EMP-017",
+    "week_ending": "2026-10-04 00:00:00",
+    "status": "passed",
+    "violations": []
+  },
+  "source_text": "ATTACHMENT: Grace_Okoye_Timesheet_WE_2026-10-04.xlsx\n| WEEKLY TIMESHEET           |\n|----------------------------|\n| BrightPath Talent Services |\n\n| Employee Name   | Grace Okoye                |\n|-----------------|----------------------------|\n| Employee ID     | SYN-EMP-017                |\n| Staffing Agency | BrightPath Talent Services |\n| Client          | Helios Logistics Ltd       |\n\n| Project       |\n|---------------|\n| Assignment ID |\n| Week Ending   |\n| Pay Period    |\n\n| Warehouse Automation Phase 2   |\n|--------------------------------|\n| ASG-2026-1017                  |\n| 2026-10-04 00:00:00            |\n| 2026-09-28 to 2026-10-04       |\n\n| Date                | Day   | Start    | End      |   Break (min) |   Hours Worked | Regular   | Overtime   | Double Time   | Public Holiday   | Pay Code   | Notes                        |\n|---------------------|-------|----------|----------|---------------|----------------|-----------|------------|---------------|------------------|------------|------------------------------|\n| 2026-09-28 00:00:00 | Mon   | 09:00:00 | 17:30:00 |            30 |              8 |           |            |               |                  |            |                              |\n| 2026-09-29 00:00:00 | Tue   | 09:00:00 | 17:30:00 |            30 |              8 |           |            |               |                  |            |                              |\n| 2026-09-30 00:00:00 | Wed   |          |          |               |                |           |            |               |                  |            |                              |\n| 2026-10-01 00:00:00 | Thu   | 09:00:00 | 17:30:00 |            30 |              8 |           |            |               |                  |            |                              |\n| 2026-10-02 00:00:00 | Fri   | 09:00:00 | 17:30:00 |            30 |              8 |           |            |               |                  |            |                              |\n| 2026-10-03 00:00:00 | Sat   |          |          |               |              0 |           |            |               |                  |            | Off                          |\n| 2026-10-04 00:00:00 | Sun   |          |          |               |              0 |           |            |               |                  |            | Off                          |\n| TOTAL               |       |          |          |               |             40 |           |            |               |                  |            | Total as entered by employee |\n\n| Weekly Summary       |\n|----------------------|\n| Regular Hours        |\n| Overtime Hours       |\n| Double-Time Hours    |\n| Public Holiday Hours |\n| Total Hours          |\n\n| 40   |\n|------|\n\n| Employee Signature   | /s/ Grace Okoye   |\n|----------------------|-------------------|\n| Supervisor Approval  | /s/ Laura Bennett |\n\n| Date   | 2026-10-04 00:00:00   |\n|--------|-----------------------|\n| Status | APPROVED              |\n\n| SYNTHETIC TEST DOCUMENT - fictional people, companies and data   |\n|------------------------------------------------------------------|"
+}
